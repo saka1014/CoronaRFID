@@ -70,10 +70,10 @@ Bei einem false wird die buzzerlogin Funktion aufgerufen
   
 Danach wird die regTag Funktion aufgerufen.
 
-  RegTag Funktion:
+    RegTag Funktion:
   
-  Diese sucht nach einer freien Stelle in der Registry (dann frei wenn überlall initialisierungswert eingetragen ist) und schreibt die gelesene ID des Tags im zwischenspeicher     an die freie Stelle in der Registry.
-  In der Registry wird auch die Cloudfkt aufgerufen.
+    Diese sucht nach einer freien Stelle in der Registry (dann frei wenn überlall initialisierungswert eingetragen ist) und schreibt die gelesene ID des Tags im zwischenspeicher     an die freie Stelle in der Registry.
+    In der Registry wird auch die Cloudfkt aufgerufen.
   
     Clodfkt:
   
@@ -84,14 +84,14 @@ Nach erfolgreicher Registrierung geht der ESP in den Deepsleep zurück.
 Gibt die search Tag Funktion ein true zurück also der Student ist schon im Raum wird dieser Ausgeloggt.
 Dafür wird die deleteTag Funktion aufgerufen.
 
-  DeleteTag:
+    DeleteTag:
   
-  In dieser wird der Tag in der Registry gesucht. An der Stelle an welcher die ID des Tags steht wird wieder der Initialisierungswert eingetragen.
-  und die Buzzerlogoff Funktiona aufgerufen.
+    In dieser wird der Tag in der Registry gesucht. An der Stelle an welcher die ID des Tags steht wird wieder der Initialisierungswert eingetragen.
+    und die Buzzerlogoff Funktiona aufgerufen.
   
-  Buzzerlogoff Funtion:
+    Buzzerlogoff Funtion:
   
-  Wie die Login Funktion, jedoch wird hier der Ton zwei mal erzeugt.
+    Wie die Login Funktion, jedoch wird hier der Ton zwei mal erzeugt.
   
 Nach dem Logoff vorgang geht der ESP wieder in den Deepsleep. 
 Beim aufwecken über den Buzzer geht die Schleife wieder von vorne los.
