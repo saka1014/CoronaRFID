@@ -55,18 +55,18 @@ Loop:
 In der Loop wird geprüft, ob ein TAag zum Lesen vorhanden ist. Falls ja wird es gelesen und die ID zwischengespeichert.
 Dann wird die Funktion search Tag aufgerufen.
   
-  Search Tag:
+    Search Tag:
   
-  In der Search Tag Funktion wird in einer Schleife nach entsprechendem Tag gesucht ist es vorhanden wird true zurückgegeben.
-  Falls nicht ein False.
+    In der Search Tag Funktion wird in einer Schleife nach entsprechendem Tag gesucht ist es vorhanden wird true zurückgegeben.
+    Falls nicht ein False.
   
 Bei einem false wird die buzzerlogin Funktion aufgerufen
 
-  Buzzerlogin:
+    Buzzerlogin:
   
-  PWM an Buzzerpin um geräusch zu erzeugen.
-  Der dutyccle von 300 erzeugt ein leises geräusch mit einer dauer von 50ms
-  mit setzten des Dutycycles auf 0 ist der Buzzer wieder leise.
+    PWM an Buzzerpin um geräusch zu erzeugen.
+    Der dutyccle von 300 erzeugt ein leises geräusch mit einer dauer von 50ms
+    mit setzten des Dutycycles auf 0 ist der Buzzer wieder leise.
   
 Danach wird die regTag Funktion aufgerufen.
 
@@ -75,7 +75,7 @@ Danach wird die regTag Funktion aufgerufen.
   Diese sucht nach einer freien Stelle in der Registry (dann frei wenn überlall initialisierungswert eingetragen ist) und schreibt die gelesene ID des Tags im zwischenspeicher     an die freie Stelle in der Registry.
   In der Registry wird auch die Cloudfkt aufgerufen.
   
-  Clodfkt:
+    Clodfkt:
   
     In dieser Funktion wird die ID des Tags in einer URL gespeichert welche dann an den Google Server geschickt wird. Mit dieser Information trägt ein Script in dem Google Sheet     den Studenten im Raum ein.
   
