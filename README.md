@@ -77,7 +77,7 @@ Danach wird die regTag Funktion aufgerufen.
   
   Clodfkt:
   
-  In dieser Funktion wird die ID des Tags in einer URL gespeichert welche dann an den Google Server geschickt wird. Mit dieser Information trägt ein Script in dem Google Sheet     den Studenten im Raum ein.
+    In dieser Funktion wird die ID des Tags in einer URL gespeichert welche dann an den Google Server geschickt wird. Mit dieser Information trägt ein Script in dem Google Sheet     den Studenten im Raum ein.
   
 Nach erfolgreicher Registrierung geht der ESP in den Deepsleep zurück.
 
